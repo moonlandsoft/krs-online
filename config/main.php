@@ -8,7 +8,7 @@ $_username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
 $_name = isset($_SESSION['name']) ? $_SESSION['name'] : '';
 
 // configuration conection with format 'host','username','password','dbname'
-$koneksi = mysqli_connect('localhost','3ch3r46','123qwe!@#','kuliah_pbw_krs');
+$koneksi = mysqli_connect('localhost','','','kuliah_pbw_krs');
 
 $_tahun_ajaran = 20151;
 
